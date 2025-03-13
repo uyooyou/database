@@ -32,6 +32,8 @@ select * from bookInfo where maker != ''and maker is not null;
 select * from bookInfo where maker != '';
 
 
+
+
 -- sum() 함수 : 컬럼 세로 합계, avg() 함수
 -- *** 가격의 함계와 평균 ***
 select sum(price) from bookInfo;
